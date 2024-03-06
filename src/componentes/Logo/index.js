@@ -7,7 +7,10 @@ const LogoContainer = styled.div`
 `
 
 const LogoImage = styled.img`
-    margin-right: 10px;
+    height: auto;
+    width: 100px;
+    margin-left: 40px;
+    cursor: pointer;
 `
 function Logo() {
     return(
@@ -15,7 +18,6 @@ function Logo() {
           <LogoImage src={logo} 
           alt='Logo do site' 
           className='logo-img'/>
-          <p><strong>Alura</strong>Books</p>
         </LogoContainer>
     )
 }

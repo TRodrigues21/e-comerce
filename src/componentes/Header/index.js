@@ -6,13 +6,14 @@ import styled from 'styled-components';
 const HeaderContainer = styled.header`
     background-color: #FFF;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    height: 80px;
+    width: 100vw;
 `
 function Header() {
     return(
         <HeaderContainer>
             <Logo/>
-            <OpcoesHeader/>
             <IconesHeader/>
         </HeaderContainer>
     )

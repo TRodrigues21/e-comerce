@@ -30,5 +30,5 @@ export const livros = [
         nome: 'Express',
         autor: 'Thiago Rodrigues',
         src: livro
-    }
+    },
 ]
